@@ -1,0 +1,148 @@
+@import url('https://fonts.googleapis.com/css2?family=Cinzel:wght@500;700;900&family=Libre+Baskerville:wght@400;700&display=swap');
+
+* {
+  box-sizing: border-box;
+}
+
+body {
+  margin: 0;
+  padding: 30px 15px;
+  background-image: url("image.png");  
+  background-size: cover;       
+  background-position: center;  
+  background-repeat: no-repeat; 
+  background-attachment: fixed; 
+
+  font-family: "Libre Baskerville", serif;
+  color: #2f1f12;
+}
+
+.poster {
+  max-width: 850px;
+  margin: 0 auto;
+  background: rgba(232, 215, 181, 0.92);
+
+  border: 10px solid #2f1f12;
+  outline: 6px solid #8a1f1f;
+  box-shadow: 0 0 0 8px #d4b06a, 0 12px 30px rgba(0, 0, 0, 0.4);
+  padding: 20px;
+}
+.poster-header {
+  text-align: center;
+  border: 4px solid #2f1f12;
+  padding: 20px 15px;
+  background-color: rgba(255, 248, 230, 0.45);
+}
+
+.top-line {
+  margin: 0 0 10px;
+  font-size: 0.8rem;
+  letter-spacing: 2px;
+  font-weight: bold;
+}
+
+h1 {
+  margin: 0;
+  font-family: "Cinzel", serif;
+  font-size: 3rem;
+  line-height: 1.1;
+  color: #8a1f1f;
+  text-transform: uppercase;
+  text-shadow: 2px 2px 0 #d4b06a;
+}
+
+.subheading {
+  margin: 14px 0 0;
+  font-size: 1rem;
+  font-weight: bold;
+  letter-spacing: 1px;
+}
+
+.poster-main {
+  text-align: center;
+  padding: 25px 10px 10px;
+}
+
+.image-frame {
+  margin-bottom: 25px;
+}
+
+.image-frame img {
+  width: 240px;
+  max-width: 90%;
+  border: 8px solid #2f1f12;
+  background-color: #efe2c5;
+  padding: 12px;
+  box-shadow: 6px 6px 0 #8a1f1f;
+}
+
+.message-box {
+  border: 4px solid #2f1f12;
+  padding: 25px 20px;
+  background-color: rgba(255, 248, 230, 0.55);
+}
+
+.slogan {
+  margin-top: 0;
+  margin-bottom: 20px;
+  font-family: "Cinzel", serif;
+  font-size: 2rem;
+  font-weight: 900;
+  color: #8a1f1f;
+  text-transform: uppercase;
+}
+
+.message-box p {
+  font-size: 1rem;
+  line-height: 1.8;
+  margin-bottom: 18px;
+}
+
+a {
+  display: inline-block;
+  margin-top: 12px;
+  padding: 14px 24px;
+  background-color: #8a1f1f;
+  color: #f7ebd1;
+  text-decoration: none;
+  font-weight: bold;
+  border: 3px solid #2f1f12;
+  font-size: 1rem;
+  letter-spacing: 1px;
+  box-shadow: 4px 4px 0 #2f1f12;
+}
+
+a:hover {
+  background-color: #a52a2a;
+  transform: translate(1px, 1px);
+  box-shadow: 3px 3px 0 #2f1f12;
+}
+
+.poster-footer {
+  margin-top: 20px;
+  text-align: center;
+  border-top: 4px solid #2f1f12;
+  padding-top: 15px;
+  font-weight: bold;
+  letter-spacing: 1px;
+  font-size: 0.9rem;
+}
+
+@media (max-width: 600px) {
+  h1 {
+    font-size: 2rem;
+  }
+
+  .slogan {
+    font-size: 1.4rem;
+  }
+
+  .message-box p {
+    font-size: 0.95rem;
+  }
+
+  a {
+    width: 100%;
+    max-width: 320px;
+  }
+}
